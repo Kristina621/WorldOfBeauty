@@ -119,11 +119,11 @@ namespace WorldOfBeauty
             childForm.Show();
 
            DB.FillTableBinding();
-            if (i == 0)
-            {
-                i++;
-                childForm.Close();
-            }
+            //if (i == 0)
+            //{
+            //    i++;
+            //    childForm.Close();
+            //}
                
         }
 
@@ -166,7 +166,7 @@ namespace WorldOfBeauty
                         DB.UpdateSotrAdapter();
                         break;
                     case "Поставки":
-                        DB.UpdateSotrAdapter();
+                        DB.UpdatePostavkaAdapter();
                         break;
                     case "График работы":
                         DB.UpdateGrafRabAdapter();
@@ -175,10 +175,10 @@ namespace WorldOfBeauty
                         DB.UpdateGrafRabSotrAdapter();
                         break;
                     case "Салон":
-                        DB.UpdateSotrAdapter();
+                        DB.UpdateSalonAdapter();
                         break;
                     case "Роли":
-                        DB.UpdateSotrAdapter();
+                        DB.UpdateRoleAdapter();
                         break;
                     case "Номенклатура чеков":
                         DB.UpdateNomenCheckAdapter();
@@ -282,7 +282,7 @@ namespace WorldOfBeauty
 
         private void main_Load(object sender, EventArgs e)
         {
-            CreateForm("Графики работы сотрудников", DB.bsGrafRabSotr);
+           
         }
     }
 }

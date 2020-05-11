@@ -209,9 +209,9 @@ namespace WorldOfBeauty
         {
             try
             {
-                SqlCommandBuilder cBuilder = new SqlCommandBuilder(daSklad);
-                daSklad.SelectCommand = new SqlCommand(qrSklad, sql);
-                daSklad.Update(dtSklad);
+                SqlCommandBuilder cBuilder = new SqlCommandBuilder(daGrafRab);
+                daGrafRab.SelectCommand = new SqlCommand(qrGrafRab, sql);
+                daGrafRab.Update(dtGrafRab);
                 FillTableBinding();
             }
             catch (Exception ex)
@@ -223,9 +223,9 @@ namespace WorldOfBeauty
         {
             try
             {
-                SqlCommandBuilder cBuilder = new SqlCommandBuilder(daSklad);
-                daSklad.SelectCommand = new SqlCommand(qrSklad, sql);
-                daSklad.Update(dtSklad);
+                SqlCommandBuilder cBuilder = new SqlCommandBuilder(daGrafRabSotr);
+                daGrafRabSotr.SelectCommand = new SqlCommand(qrGrafRabSotr, sql);
+                daGrafRabSotr.Update(dtGrafRabSotr);
                 FillTableBinding();
             }
             catch (Exception ex)
@@ -237,9 +237,9 @@ namespace WorldOfBeauty
         {
             try
             {
-                SqlCommandBuilder cBuilder = new SqlCommandBuilder(daSklad);
-                daSklad.SelectCommand = new SqlCommand(qrSklad, sql);
-                daSklad.Update(dtSklad);
+                SqlCommandBuilder cBuilder = new SqlCommandBuilder(daNomenCheck);
+                daNomenCheck.SelectCommand = new SqlCommand(qrNomenCheck, sql);
+                daNomenCheck.Update(dtNomenCheck);
                 FillTableBinding();
             }
             catch (Exception ex)
@@ -251,9 +251,9 @@ namespace WorldOfBeauty
         {
             try
             {
-                SqlCommandBuilder cBuilder = new SqlCommandBuilder(daSklad);
-                daSklad.SelectCommand = new SqlCommand(qrSklad, sql);
-                daSklad.Update(dtSklad);
+                SqlCommandBuilder cBuilder = new SqlCommandBuilder(daRole);
+                daRole.SelectCommand = new SqlCommand(qrRole, sql);
+                daRole.Update(dtRole);
                 FillTableBinding();
             }
             catch (Exception ex)
@@ -265,9 +265,9 @@ namespace WorldOfBeauty
         {
             try
             {
-                SqlCommandBuilder cBuilder = new SqlCommandBuilder(daSklad);
-                daSklad.SelectCommand = new SqlCommand(qrSklad, sql);
-                daSklad.Update(dtSklad);
+                SqlCommandBuilder cBuilder = new SqlCommandBuilder(daSalon);
+                daSalon.SelectCommand = new SqlCommand(qrSalon, sql);
+                daSalon.Update(dtSalon);
                 FillTableBinding();
             }
             catch (Exception ex)

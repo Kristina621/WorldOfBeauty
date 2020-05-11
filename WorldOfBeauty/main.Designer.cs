@@ -257,7 +257,7 @@
             // 
             this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button8.Font = new System.Drawing.Font("Bahnschrift SemiBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button8.Location = new System.Drawing.Point(277, 225);
+            this.button8.Location = new System.Drawing.Point(40, 225);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(202, 33);
             this.button8.TabIndex = 22;
@@ -269,7 +269,7 @@
             // 
             this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button9.Font = new System.Drawing.Font("Bahnschrift SemiBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button9.Location = new System.Drawing.Point(40, 225);
+            this.button9.Location = new System.Drawing.Point(277, 225);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(202, 33);
             this.button9.TabIndex = 28;
@@ -281,7 +281,7 @@
             // 
             this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button10.Font = new System.Drawing.Font("Bahnschrift SemiBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button10.Location = new System.Drawing.Point(40, 168);
+            this.button10.Location = new System.Drawing.Point(40, 111);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(202, 33);
             this.button10.TabIndex = 27;
@@ -293,7 +293,7 @@
             // 
             this.button11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button11.Font = new System.Drawing.Font("Bahnschrift SemiBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button11.Location = new System.Drawing.Point(40, 111);
+            this.button11.Location = new System.Drawing.Point(40, 168);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(202, 33);
             this.button11.TabIndex = 26;
@@ -305,7 +305,7 @@
             // 
             this.button14.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button14.Font = new System.Drawing.Font("Bahnschrift SemiBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button14.Location = new System.Drawing.Point(40, 58);
+            this.button14.Location = new System.Drawing.Point(40, 342);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(202, 33);
             this.button14.TabIndex = 23;
@@ -365,7 +365,7 @@
             // 
             this.button12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button12.Font = new System.Drawing.Font("Bahnschrift SemiBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button12.Location = new System.Drawing.Point(40, 342);
+            this.button12.Location = new System.Drawing.Point(40, 58);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(202, 33);
             this.button12.TabIndex = 32;
